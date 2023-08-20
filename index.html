@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SOCCER QUIZ</h1>
+        <h2>Questão 1</h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="question">
+                <h3>Qual foi o país que sediou a Copa do Mundo de Futebol no ano de 2014?</h3>
+            </div>
+            <div class="options">
+                <p id="a" onclick="clicou('#a')">Brasil</p>
+                <p id="b" onclick="clicou('#b')">Alemanha</p>
+                <p id="c" onclick="clicou('#c')">Espanha</p>
+                <p id="d" onclick="clicou('#d')">França</p>
+            </div>
+            <div id="resposta"></div>
+        </div>
+        <button id="botao" onclick="proximaQuestao()">Próxima</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
