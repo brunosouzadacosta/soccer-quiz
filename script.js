@@ -63,7 +63,7 @@ function proximaQuestao() {
                     document.querySelector('#b').innerText = "5";
                     document.querySelector('#c').innerText = "7";
                     document.querySelector('#d').innerText = "4";
-                    respostaCorreta = document.querySelector('#a');
+                    respostaCorreta = document.querySelector('#b');
                     break;
                 case 5:
                     document.querySelector('h3').innerText = "Qual equipe venceu a UEFA Champions League na temporada 2020-2021?";
@@ -82,12 +82,12 @@ function proximaQuestao() {
                     respostaCorreta = document.querySelector('#b');
                     break;
                 case 7:
-                    document.querySelector('h3').innerText = "Qual equipe brasileira venceu a Libertadores de 1992 de maneira invicta?";
+                    document.querySelector('h3').innerText = "Qual equipe brasileira venceu a Libertadores de 2012 de maneira invicta?";
                     document.querySelector('#a').innerText = "Cruzeiro";
                     document.querySelector('#b').innerText = "São Paulo";
-                    document.querySelector('#c').innerText = "Grêmio";
+                    document.querySelector('#c').innerText = "Corinthians";
                     document.querySelector('#d').innerText = "Palmeiras";
-                    respostaCorreta = document.querySelector('#a');
+                    respostaCorreta = document.querySelector('#c');
                     break;
                 case 8:
                     document.querySelector('h3').innerText = "Qual foi o primeiro time brasileiro a levar a taça da Libertadores?";
@@ -116,10 +116,10 @@ function proximaQuestao() {
                 "2 - A França ganhou a Copa do Mundo de 2018",
                 "3 - Miroslav Klose é o  maior artilheiro de todos os Mundiais com 16 gols",
                 "4 - Cristiano Ronaldo é o jogador com mais gols marcados em uma única edição da Champions League na temporada 2013-2014",
-                "5 - O Barcelona conquistou a Champions League 3 vezes em sua história",
+                "5 - O Barcelona conquistou a Champions League 5 vezes em sua história",
                 "6 - O Chelsea venceu a UEFA Champions League na temporada 2020-2021",
                 "7 - O São Paulo venceu a Libertadores 3 vezes em sua história",
-                "8 - O Cruzeiro venceu a Libertadores de 1992 de maneira invicta",
+                "8 - O Corinthians venceu a Libertadores de 2012 de maneira invicta",
                 "9 - O Santos foi o primeiro time brasileiro a ganhar a Libertadores em 1962",
                 "10 - A seleção feminina dos Estados Unidos venceu a Copa do Mundo de Futebol Feminino em 2019"
             ];
